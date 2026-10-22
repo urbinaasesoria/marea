@@ -5,4 +5,4 @@ Allow: /
 Disallow: /onboarding
 Disallow: /app/practice
 
-Sitemap: https://marea.vercel.app/sitemap.xml
+Sitemap: https://marea-orcin.vercel.app/sitemap.xml

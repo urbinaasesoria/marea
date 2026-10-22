@@ -18,3 +18,8 @@ marea-qa/
 *.local
 .DS_Store
 Thumbs.db
+
+.vercel
+.env*
+.vercel/
+.env.local
