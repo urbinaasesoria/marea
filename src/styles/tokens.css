@@ -1,0 +1,91 @@
+:root {
+  /* Brand palette */
+  --ink-950: #071a20;
+  --ink-900: #0b2229;
+  --ink-850: #0f2a32;
+  --ink-800: #123039;
+  --ink-700: #1c4049;
+  --ink-600: #2a525a;
+  --ink-500: #3d666d;
+  --ink-400: #587b80;
+  --muted: #6b7f83;
+  --paper: #f7f3ea;
+  --paper-2: #fcf9f3;
+  --paper-3: #efe7d8;
+  --sand: #e8ddc9;
+  --sand-deep: #d9c9ae;
+  --coral: #de6a4a;
+  --coral-deep: #c25235;
+  --coral-soft: #f4c9ba;
+  --sea: #2c7a70;
+  --sea-deep: #1f5c55;
+  --sea-soft: #cfe5dd;
+  --sea-mist: #e4f0eb;
+  --sky: #a9c9d4;
+  --sky-soft: #dbe9ed;
+  --plum: #6f6480;
+  --plum-soft: #ded8e7;
+  --gold: #c8a24a;
+  --gold-soft: #efe2c2;
+  --white: #fffdf8;
+  --danger: #b44432;
+  --line: rgba(7, 26, 32, 0.12);
+  --line-strong: rgba(7, 26, 32, 0.22);
+  --line-light: rgba(255, 253, 248, 0.16);
+
+  /* Type */
+  --font-display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
+  --font-body: "Manrope Variable", "Avenir Next", system-ui, -apple-system, sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.0625rem;
+  --text-lg: 1.1875rem;
+  --text-xl: clamp(1.35rem, 1.8vw, 1.65rem);
+  --text-2xl: clamp(1.7rem, 2.4vw, 2.15rem);
+  --text-3xl: clamp(2.1rem, 3.4vw, 3rem);
+  --text-4xl: clamp(2.6rem, 5vw, 4.4rem);
+  --text-hero: clamp(3.2rem, 7.4vw, 7rem);
+
+  /* Space & shape */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-2xl: 44px;
+  --radius-pill: 999px;
+  --container: 1240px;
+  --shadow-sm: 0 1px 2px rgba(7, 26, 32, 0.05), 0 4px 14px rgba(7, 26, 32, 0.04);
+  --shadow-md: 0 12px 34px rgba(7, 26, 32, 0.1);
+  --shadow-lg: 0 30px 80px rgba(7, 26, 32, 0.18);
+  --shadow-card: 0 24px 60px -30px rgba(7, 26, 32, 0.35);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Motion */
+  --dur-fast: 160ms;
+  --dur: 320ms;
+  --dur-slow: 700ms;
+
+  color-scheme: light;
+}
+
+/* Night surfaces used by the immersive player and app sidebar */
+.on-dark {
+  --line: rgba(255, 253, 248, 0.14);
+  --line-strong: rgba(255, 253, 248, 0.28);
+  --muted: #a8b8b7;
+  color: var(--paper);
+}

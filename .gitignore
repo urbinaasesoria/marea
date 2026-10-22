@@ -1,0 +1,20 @@
+# Dependencies & build output
+node_modules/
+dist/
+.vite/
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Test artefacts
+test-results/
+playwright-report/
+blob-report/
+marea-qa/
+
+# Environment & editor noise
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+Thumbs.db

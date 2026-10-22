@@ -1,0 +1,68 @@
+{
+  "id": "/",
+  "name": "Marea — Meditation, sleep & focus",
+  "short_name": "Marea",
+  "description": "A bilingual sanctuary for meditation, sleep and focus. Original practices in English and Spanish. Private by design.",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f7f3ea",
+  "theme_color": "#071a20",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["health", "lifestyle", "medical"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "url": "/app?lang=en",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Breathe",
+      "short_name": "Breathe",
+      "url": "/app/breathe?lang=en",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Sleep",
+      "short_name": "Sleep",
+      "url": "/app/sleep?lang=en",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Journal",
+      "short_name": "Journal",
+      "url": "/app/journal?lang=en",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
