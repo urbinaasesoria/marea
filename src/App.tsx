@@ -5,6 +5,7 @@ import { I18nProvider } from "./i18n/I18nProvider";
 import { ToastProvider } from "./components/ToastProvider";
 import { AppShell } from "./components/AppShell";
 import { Landing } from "./pages/Landing";
+import { Legal } from "./pages/Legal";
 import { Today } from "./pages/Today";
 import { Library } from "./pages/Library";
 import { Player } from "./pages/Player";
@@ -43,6 +44,7 @@ function AppRoutes() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/legal" element={<Legal />} />
         <Route path="/onboarding" element={<Onboarding />} />
         <Route
           path="/app"

@@ -658,6 +658,7 @@ export function Landing() {
             <nav className="site-footer__col" aria-label={t("footer.about")}>
               <h3>{t("footer.about")}</h3>
               <a href="#privacy">{t("footer.privacy")}</a>
+              <Link to="/legal">{t("legal.eyebrow")}</Link>
               <a href="#privacy">{t("footer.accessibility")}</a>
               <a href="#faq-title">{t("nav.help")}</a>
               <Link to="/app/settings">{t("nav.language")}</Link>

@@ -214,7 +214,7 @@ export const en = {
 
   "app.library.title": "Library",
   "app.library.sub": "Original practices in English and Spanish. Choose by moment, not by mood.",
-  "app.library.search": "Search practices, tags, teachers…",
+  "app.library.search": "Search practices, tags, moments…",
   "app.library.all": "All",
   "app.library.favorites": "Saved",
   "app.library.filterDuration": "Length",
@@ -588,6 +588,10 @@ export const en = {
   "common.notFoundBody": "The link may be old, or the practice may have moved. Return to somewhere familiar.",
   "common.goHome": "Go home",
   "common.openApp": "Open the app",
+  "legal.eyebrow": "Trust & legal",
+  "legal.title": "Everything stays with you.",
+  "legal.lede":
+    "How Marea treats your data, what this product is, and a few honest notes about wellbeing.",
 } as const;
 
 export type TranslationKey = keyof typeof en;

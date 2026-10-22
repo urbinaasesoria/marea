@@ -216,7 +216,7 @@ export const es: Record<TranslationKey, string> = {
 
   "app.library.title": "Biblioteca",
   "app.library.sub": "Prácticas originales en inglés y español. Elige por momento, no por estado.",
-  "app.library.search": "Buscar prácticas, etiquetas, voces…",
+  "app.library.search": "Busca prácticas, etiquetas y momentos…",
   "app.library.all": "Todas",
   "app.library.favorites": "Guardadas",
   "app.library.filterDuration": "Duración",
@@ -590,4 +590,8 @@ export const es: Record<TranslationKey, string> = {
   "common.notFoundBody": "El enlace puede ser antiguo o la práctica puede haberse movido. Vuelve a un lugar conocido.",
   "common.goHome": "Ir al inicio",
   "common.openApp": "Abrir la app",
+  "legal.eyebrow": "Confianza y legal",
+  "legal.title": "Todo se queda contigo.",
+  "legal.lede":
+    "Cómo trata Marea tus datos, qué es este producto y algunas notas honestas sobre el bienestar.",
 };

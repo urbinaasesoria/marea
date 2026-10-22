@@ -8,6 +8,7 @@ import "./styles/components.css";
 import "./styles/landing.css";
 import "./styles/app.css";
 import "./styles/player.css";
+import "./styles/legal.css";
 import { App } from "./App";
 
 const root = document.getElementById("root");

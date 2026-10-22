@@ -1,0 +1,8 @@
+# Marea — robots.txt
+# Update Sitemap URL when a custom production domain replaces the Vercel domain.
+User-agent: *
+Allow: /
+Disallow: /onboarding
+Disallow: /app/practice
+
+Sitemap: https://marea.vercel.app/sitemap.xml
